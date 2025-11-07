@@ -35,6 +35,7 @@ X = data[features]
 ```
 
 ### 2. Train/Test Split & Model Training
+
 ```python
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
@@ -57,8 +58,9 @@ Tuned features and max_depth
 
 Compared MAE values
 
-4. Visualization (Optional)
+### 4. Visualization (Optional)
 
+```python
 import matplotlib.pyplot as plt
 
 plt.scatter(y_valid, preds)
@@ -67,19 +69,25 @@ plt.ylabel("Predicted Prices")
 plt.title("Actual vs Predicted House Prices")
 plt.show()
 
+```
 
-Results
+### 5. Results
 Model	Mean Absolute Error
-Decision Tree Regressor	24,750
-Random Forest Regressor	21,500
+Decision Tree Regressor	29,268
+Random Forest Regressor	21,393
 
 Improvement: ~13% reduction in MAE using Random Forest.
 Random Forest provides more accurate and stable predictions compared to a single decision tree.
 
-Conclusion
+###  6. Conclusion
 
 Demonstrates building, validating, and improving ML models
 
 Shows the importance of feature selection and model tuning
 
 Practical end-to-end workflow for GitHub and LinkedIn portfolio
+
+
+### 7. Author ✨
+
+Nihar Sawant – aspiring DevOps & Software Engineer with interest in machine learning, cloud, and automation.
