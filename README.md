@@ -32,9 +32,10 @@ y = data.SalePrice
 features = ["LotArea", "YearBuilt", "1stFlrSF", "2ndFlrSF", "FullBath", "BedroomAbvGr", "TotRmsAbvGrd"]
 X = data[features]
 
+```
 
-2. Train/Test Split & Model Training
-
+### 2. Train/Test Split & Model Training
+```python
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error
@@ -46,8 +47,9 @@ preds = model.predict(X_valid)
 mae = mean_absolute_error(y_valid, preds)
 print("Mean Absolute Error:", mae)
 
+```
 
-3. Model Improvement
+### 3. Model Improvement
 
 Tried RandomForestRegressor
 
