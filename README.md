@@ -71,12 +71,13 @@ plt.show()
 
 ```
 
-### 5. Results
+### 5. Results 📊
+
 Model	Mean Absolute Error
 Decision Tree Regressor	29,268
 Random Forest Regressor	21,393
 
-Improvement: ~13% reduction in MAE using Random Forest.
+✅ Improvement: ~27% reduction in MAE using Random Forest
 Random Forest provides more accurate and stable predictions compared to a single decision tree.
 
 ###  6. Conclusion
