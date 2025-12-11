@@ -89,6 +89,20 @@ Shows the importance of feature selection and model tuning
 Practical end-to-end workflow for GitHub and LinkedIn portfolio
 
 
-### 7. Author ✨
+
+
+### 7. Additional Notebooks 📓
+
+This project includes several Jupyter Notebooks that cover various aspects of machine learning and data preprocessing:
+
+- **Categorial_Variables.ipynb**: Explores the handling of categorical variables in the dataset.
+- **Cross_Validation.ipynb**: Implements cross-validation techniques to evaluate model performance.
+- **Data_Leakage.ipynb**: Discusses the concept of data leakage and how to prevent it in model training.
+- **Introduction.ipynb**: Provides an introduction to the project and its objectives.
+- **Missing_Values.ipynb**: Details methods for handling missing values in the dataset.
+- **Pipeline.ipynb**: Demonstrates the creation of a machine learning pipeline for streamlined processing.
+- **XGBoost.ipynb**: Explores the use of the XGBoost algorithm for improved predictions.
+
+### 8. Author ✨
 
 Nihar Sawant – aspiring DevOps & Software Engineer with interest in machine learning, cloud, and automation.
